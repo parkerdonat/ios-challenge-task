@@ -11,6 +11,10 @@
 		DD7DB8B31CC1786F0091F6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DB8B11CC1786F0091F6BF /* Main.storyboard */; };
 		DD7DB8B51CC1786F0091F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7DB8B41CC1786F0091F6BF /* Assets.xcassets */; };
 		DD7DB8B81CC1786F0091F6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DB8B61CC1786F0091F6BF /* LaunchScreen.storyboard */; };
+		DD7DB8C31CC17B8B0091F6BF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C11CC17B8B0091F6BF /* Model.xcdatamodeld */; };
+		DD7DB8C61CC17BD70091F6BF /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */; };
+		DD7DB8C71CC17BD70091F6BF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C51CC17BD70091F6BF /* Task.swift */; };
+		DD7DB8C91CC17C470091F6BF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C81CC17C470091F6BF /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		DD7DB8B41CC1786F0091F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7DB8B71CC1786F0091F6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7DB8B91CC1786F0091F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DB8C21CC17B8B0091F6BF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DD7DB8C51CC17BD70091F6BF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DD7DB8C81CC17C470091F6BF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 		DD7DB8AC1CC1786F0091F6BF /* ios-challenge-task */ = {
 			isa = PBXGroup;
 			children = (
+				DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */,
+				DD7DB8C51CC17BD70091F6BF /* Task.swift */,
 				DD7DB8AD1CC1786F0091F6BF /* AppDelegate.swift */,
+				DD7DB8C11CC17B8B0091F6BF /* Model.xcdatamodeld */,
+				DD7DB8C81CC17C470091F6BF /* Stack.swift */,
 				DD7DB8B11CC1786F0091F6BF /* Main.storyboard */,
 				DD7DB8B41CC1786F0091F6BF /* Assets.xcassets */,
 				DD7DB8B61CC1786F0091F6BF /* LaunchScreen.storyboard */,
@@ -132,7 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7DB8C71CC17BD70091F6BF /* Task.swift in Sources */,
+				DD7DB8C91CC17C470091F6BF /* Stack.swift in Sources */,
 				DD7DB8AE1CC1786F0091F6BF /* AppDelegate.swift in Sources */,
+				DD7DB8C61CC17BD70091F6BF /* Task+CoreDataProperties.swift in Sources */,
+				DD7DB8C31CC17B8B0091F6BF /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD7DB8C11CC17B8B0091F6BF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD7DB8C21CC17B8B0091F6BF /* Model.xcdatamodel */,
+			);
+			currentVersion = DD7DB8C21CC17B8B0091F6BF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD7DB8A21CC1786F0091F6BF /* Project object */;
 }
