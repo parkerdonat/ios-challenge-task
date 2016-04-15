@@ -15,6 +15,7 @@
 		DD7DB8C61CC17BD70091F6BF /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */; };
 		DD7DB8C71CC17BD70091F6BF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C51CC17BD70091F6BF /* Task.swift */; };
 		DD7DB8C91CC17C470091F6BF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8C81CC17C470091F6BF /* Stack.swift */; };
+		DD7DB8CB1CC17E100091F6BF /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DB8CA1CC17E100091F6BF /* TaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD7DB8C51CC17BD70091F6BF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DD7DB8C81CC17C470091F6BF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DD7DB8CA1CC17E100091F6BF /* TaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				DD7DB8C41CC17BD70091F6BF /* Task+CoreDataProperties.swift */,
 				DD7DB8C51CC17BD70091F6BF /* Task.swift */,
+				DD7DB8CA1CC17E100091F6BF /* TaskController.swift */,
 				DD7DB8AD1CC1786F0091F6BF /* AppDelegate.swift */,
 				DD7DB8C11CC17B8B0091F6BF /* Model.xcdatamodeld */,
 				DD7DB8C81CC17C470091F6BF /* Stack.swift */,
@@ -148,6 +151,7 @@
 				DD7DB8C91CC17C470091F6BF /* Stack.swift in Sources */,
 				DD7DB8AE1CC1786F0091F6BF /* AppDelegate.swift in Sources */,
 				DD7DB8C61CC17BD70091F6BF /* Task+CoreDataProperties.swift in Sources */,
+				DD7DB8CB1CC17E100091F6BF /* TaskController.swift in Sources */,
 				DD7DB8C31CC17B8B0091F6BF /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
